@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "contractBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"invitation/InvitationMintingOwner.sol": "InvitationMintingOwner"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"invitation/InvitationMintingOwner.sol": {
+			"keccak256": "0xd397db622905ecd27e83d4c4807d3a36dbda92af30d6012220950e33fe7413dd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://599a997d99c8020c7dc060ae6f06ee7bd7f1012648fb11d8bbef6399b21d8912",
+				"dweb:/ipfs/QmTpbAvwdkbontuJbrcTibPXj3RfEJ1atyx3yBg3PzAith"
+			]
+		}
+	},
+	"version": 1
+}
