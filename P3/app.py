@@ -9,7 +9,7 @@ import json
 with open('contract_abi.json', 'r') as f:
     contract_abi = json.load(f)
 
-contract_address = "0xdA17f6cCF8E7354644b1C91241BcBFD2c1A869ce"
+contract_address = "0x0d3D871AFd0F2B35918aD35dc3a49b25e130bF00"
 
 # Create a contract instance
 contract = w3.eth.contract(address=contract_address, abi=contract_abi)
@@ -76,11 +76,16 @@ def withdraw_balance(owner_address):
 ### Streamlit ###
 #################
 
-st.title("Welcome to Demi, Jonny, Julio, and Cary's Graduate Dinner")
+# from PIL import Image
+# Img = Image.open('1.png')
+# st.beta_set_page_config(page_title = "GRAD DINNER",page_icon = Img)
+
+st.title("Welcome to UCB Fintech Bootcamp Grad Dinner!")
 
 # Mint Invitation and Available Invitation IDs Section
-st.header("Mint Invitation and Available Invitation IDs")
-st.header("As the invitation ID number decreases, the seat is positioned closer to the host.")
+st.header("Purchase Invitation and Available Invitation IDs")
+st.text("") # Add instructions 
+st.header("The lower the Invitation Number, the closer the seat is to Firas and the TAs.")
 
 # Get the available invitation IDs
 available_ids = get_available_invitation_ids()
@@ -94,7 +99,7 @@ for invitation_id in available_ids:
         sender_key = f"sender_{invitation_id}"
         sender = st.text_input("Your Address", key=sender_key)
 
-        if st.button(f"Mint This Invitation {invitation_id}"):
+        if st.button(f"Purchase Invitation {invitation_id}"):
             mint_result = mint_invitation(sender, invitation_id)
             if mint_result is not None:
                 st.success("Invitation minted successfully!")
