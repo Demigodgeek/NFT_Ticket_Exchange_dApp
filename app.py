@@ -11,7 +11,7 @@ import json
 with open('contract_abi.json', 'r') as f:
     contract_abi = json.load(f)
 
-contract_address = "0x8dcCF8A87662bbAB4464a97475990851021534c2"
+contract_address = "0x0461B1BF9B97816eF4540Cb61EE6c1DE9a05C97f"
 
 # Create a contract instance
 contract = w3.eth.contract(address=contract_address, abi=contract_abi)
@@ -72,14 +72,14 @@ def withdraw_contract_balance(owner_address):
 #################
 
 # Set the page title and icon
-Img = Image.open('./images/R.jpeg')
+Img = Image.open('./images/crest.png')
 st.set_page_config(page_title="GRAD DINNER", page_icon=Img, layout="wide")
 
 # Create a sidebar for user type selection
 
 # Add some decorations
 st.sidebar.markdown("<h1 style='text-align: center; color: #339966;'>Welcome to</h1> ", unsafe_allow_html=True)
-st.sidebar.markdown("<h1 style='text-align: center; color: #339966;'>UBC FINTECH BOOTCAMP GRAD DINNER</h1>", unsafe_allow_html=True)
+st.sidebar.markdown("<h1 style='text-align: center; color: #339966;'>UCB FINTECH BOOTCAMP GRAD DINNER</h1>", unsafe_allow_html=True)
 st.sidebar.markdown("<hr style='background-color: #339966; height: 2px;'>", unsafe_allow_html=True)
 
 
@@ -131,21 +131,21 @@ else:
     st.title("Customer Operations")
 
     # Dropdown menu to choose operation
-    operation = st.sidebar.selectbox("Choose an operation", ("Mint Invitation", "Generate Receipt", "Gift Invitation"))
+    operation = st.sidebar.selectbox("Choose an operation", ("Purchase Invitation", "Generate Receipt", "Gift Invitation"))
 
-    if operation == "Mint Invitation":
+    if operation == "Purchase Invitation":
         # Mint Invitation Section
-        st.header("Mint Invitation")
-        st.subheader("Purchase an invitation")
+        st.header("Purchase Invitation")
+        st.subheader("How to purchase")
 
         st.markdown("<p style='text-align: left; font-size: 18px;'>"
                     "Each ticket costs <span style='color: #339966;'>10 ETH</span>."
                     "</p>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: left; font-size: 18px;'>"
-                    "Each user can only purchase <span style='color: #339966;'>1 ticket</span>."
+                    "Each user can only purchase <span style='color: #339966;'>1 invitation</span>."
                     "</p>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: left; font-size: 18px;'>"
-                    "Once a ticket has been purchased, that Invitation Number cannot be minted again."
+                    "Once an invitation has been purchased, that Invitation Number cannot be minted again."
                     "</p>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: left; font-size: 18px;'>"
                     "The lower the Invitation Number, the closer the seat is to Firas and the TAs."
@@ -174,20 +174,20 @@ else:
                 index = i * num_cols + j
                 if index < len(available_ids):
                     invitation_id = available_ids[index]
-                    invitation_image = f"images/invitation_{invitation_id}.jpg"  # Replace with the actual image file name
+                    invitation_image = f"images/invitation_{invitation_id}.png"  # Replace with the actual image file name
 
                     with cols[j]:
                         sender_key = f"sender_{invitation_id}"
                         sender = st.text_input("Your Address", key=sender_key)
 
-                        if st.button(f"Mint Invitation {invitation_id}"):
+                        if st.button(f"Purchase Invitation {invitation_id}"):
                             if Web3.isAddress(sender):
                                 mint_result = mint_invitation(sender, invitation_id)
                                 if mint_result is not None:
-                                    st.success("Invitation minted successfully!")
+                                    st.success("Invitation purchased successfully!")
                                     st.balloons()
                                 else:
-                                    st.error("Failed to mint the invitation. Please try again.")
+                                    st.error("Failed to purchase the invitation. Please try again.")
                             else:
                                 st.warning("Invalid sender address.")
 
@@ -196,9 +196,9 @@ else:
     elif operation == "Generate Receipt":
         # Generate Receipt Section
         st.header("Generate Receipt")
-        st.subheader("Generate a receipt for your minted invitation")
+        st.subheader("Generate a receipt for your purchased invitation")
 
-        receipt_invitation_id = st.number_input("Invitation ID", min_value=1, max_value=MAX_INVITATIONS, step=1)
+        receipt_invitation_id = st.number_input("Invitation Number", min_value=1, max_value=MAX_INVITATIONS, step=1)
         receipt_owner_key = "receipt_owner_address"  # Unique key for the receipt owner text input
         receipt_owner = st.text_input("Your Address", key=receipt_owner_key)
 
@@ -211,7 +211,7 @@ else:
                         st.success("Receipt generated successfully!")
 
                         # Display receipt information
-                        receipt_info = f"Invitation ID: {receipt_invitation_id}\n" \
+                        receipt_info = f"Invitation Number: {receipt_invitation_id}\n" \
                                     f"Owner Address: {receipt_owner}"
                         st.write(receipt_info)
 
@@ -226,8 +226,11 @@ else:
         # Gift Invitation Section
         st.header("Gift Invitation")
         st.header("Gift your invitation to someone else")
+        st.markdown("<p style='text-align: left; font-size: 18px;'>"
+                    " <span style='color: #339966;'>If you would like to generate a receipt, you must do so before you gift your invitation</span>."
+                    "</p>", unsafe_allow_html=True)
 
-        gift_invitation_id = st.number_input("Invitation ID to Gift", min_value=1, max_value=MAX_INVITATIONS, step=1)
+        gift_invitation_id = st.number_input("Invitation Number to Gift", min_value=1, max_value=MAX_INVITATIONS, step=1)
         gift_sender = st.text_input("Your Address")
         recipient = st.text_input("Recipient Address")
 
@@ -245,6 +248,7 @@ else:
                     st.warning("You are not the owner of this invitation.")
             else:
                 st.warning("Invalid sender or recipient address.")
+st.sidebar.image(Img, use_column_width= True)
 
 # Footer
 footer_html = """
