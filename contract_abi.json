@@ -458,6 +458,25 @@
 		"type": "function"
 	},
 	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "invitationId",
+				"type": "uint256"
+			}
+		],
+		"name": "getOriginalMinter",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
 		"inputs": [],
 		"name": "INVITATION_PRICE",
 		"outputs": [
