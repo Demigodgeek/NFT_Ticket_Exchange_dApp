@@ -48,24 +48,29 @@ Click [Here](https://docs.streamlit.io/library/get-started/installation). For in
 
 ## Launch
 
-### How to deploy Streamlit & Deploy Smart Contracts on Remix.
+### Deploy Smart Contracts on Remix.
 
-1st, On Remix, upload the folder cloned from github.
-![](images/Deploy_1.)
+On Remix, upload the folder cloned from github.
+![](images/Deploy_1.png)
 
-Once uploaded Click on "InvitationMint.sol" found in 
+Click on "InvitationMint.sol" found in 
 
 nft_invitation_dApp>>Contract>>InvitationMint.sol
 
-![](images/Deploy_2)
+![](images/Deploy_2.png)
 
+### Run Streamlit page
 
-To run the streamlit page once must locate the folder in which the repository lives. Then run,
+To run the streamlit page, locate the nft_invitation_dapp from the command line interface
+![](images/lit_1.png)
 
+Now enter the following command.
 ```
-streamlit run app.py
+streamlit run app_0529.py
 ```
- to launch the streamlit page.
+ You should see this in your terminal along with the streamlit page popping up.
+ 
+ ![](images/lit_2.png)
 
  st, deploy the deployer.sol
 chose environment “Dev-Ganache Provider”
