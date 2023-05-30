@@ -63,22 +63,23 @@ streamlit run app.py
 
  st, deploy the deployer.sol
 chose environment “Dev-Ganache Provider”
+![](images/Launch_1.jpg)
   
 change RPC Endpoint from  8545 to 7545, click OK
-                 
+![](images/Launch_2.jpg)                 
 
 
 change GAS LIMIT to 100000000, copy paste index 0 address from Ganache, choose Deployer contract, click Deploy.
-
+![](images/Launch_3.jpg)
 
 In the Deployed Contracts section, expand “DEPLOYER AT”
-
+![](images/Launch_4.jpg)
 
 
 Second, deploy the TicketMint contract
 in the DEPLOYER contract, click “getTicketMint”, copy the address you get from this function, paste it into the blank beside `At Address` ,  as the picture shows. then in the CONTRACT section, choose TicketMint contract, click `At Address.`
 
-
+![](images/Launch_5.jpg)
 
 
 
@@ -87,7 +88,9 @@ in the DEPLOYER contract, click “getTicketMint”, copy the address you get fr
 Then, deploy the TicketExchange contract
 in the Deployed Contract section, click the `copy` icon beside the  “TICEKTMINT”, paste it into the blank beside `At Address` ,  as the picture shows. then in the CONTRACT section, choose TicketExchange contract, click `At Address.`
 
+![](images/Launch_6.jpg)
 Now you can mint Ticket using the `mintTicket` function in TICKETMINT contract
+![](images/Launch_7.jpg)
 
 1. in TRANSACTIONS section, set value = 1 Ether
 2. click the mintTicket function, copy paste index 1 address in Ganache as owner, set seatNumber as 1, then click transact. 
