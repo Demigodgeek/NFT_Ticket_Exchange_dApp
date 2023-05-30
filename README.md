@@ -41,7 +41,7 @@ Click [Here](/code.visualstudio.com/download). For instructions to download Virt
 
 Click [Here](/remix.ethereum.org/). To Launch remix.etherum.org
 
-Click [Here](/docs.streamlit.io/library/get-started/installatio). For instructions to install streamlit.
+Click [Here](https://docs.streamlit.io/library/get-started/installation). For instructions to install streamlit.
 
 
 
