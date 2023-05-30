@@ -30,16 +30,16 @@ This contract maintains a count of minted invitations and the Ethereum address t
 ---
 ## Installation Guide
 
-Click [Here](/docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=cli). For instructions on how to clone this repository from github.
+Click [Here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository?tool=cli). For instructions on how to clone this repository from github.
 
-Click [Here](/trufflesuite.com/docs/ganache/quickstart/). For instructions to download Ganache, when prompted choose the quickstart method.
+Click [Here](https://trufflesuite.com/docs/ganache/quickstart/). For instructions to download Ganache, when prompted choose the quickstart method.
 
-Click [Here](/support.metamask.io/hc/en-us/articles/360015489531-Getting-started-with-MetaMask#:~:text=will%20automatically%20open.-,You%20can%20also%20make%20sure%20it's%20easily%20accessible%20in%20your,selecting%20%22Show%20in%20Toolbar%22.&text=Click%20%E2%80%9CDownload%22.,%22Install%20MetaMask%20for%20Chrome%22.). For instructions on how install Metamask.
+Click [Here](https://support.metamask.io/hc/en-us/articles/360015489531-Getting-started-with-MetaMask#:~:text=will%20automatically%20open.-,You%20can%20also%20make%20sure%20it's%20easily%20accessible%20in%20your,selecting%20%22Show%20in%20Toolbar%22.&text=Click%20%E2%80%9CDownload%22.,%22Install%20MetaMask%20for%20Chrome%22.). For instructions on how install Metamask.
 
 
-Click [Here](/code.visualstudio.com/download). For instructions to download Virtual Studio.
+Click [Here](https://code.visualstudio.com/download). For instructions to download Virtual Studio.
 
-Click [Here](/remix.ethereum.org/). To Launch remix.etherum.org
+Click [Here](https://remix.ethereum.org/). To Launch remix.etherum.org
 
 Click [Here](https://docs.streamlit.io/library/get-started/installation). For instructions to install streamlit.
 
