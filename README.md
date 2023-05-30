@@ -48,11 +48,17 @@ Click [Here](https://docs.streamlit.io/library/get-started/installation). For in
 
 ## Launch
 
-Here you will find step by step instructions to Deploy the smart Contract and to run the streamlit page.
+### How to deploy Streamlit & Deploy Smart Contracts on Remix.
 
-On Remix, upload the folder cloned from github.
+1st, On Remix, upload the folder cloned from github.
+![](images/Deploy_1.)
 
-Once open find file name 
+Once uploaded Click on "InvitationMint.sol" found in 
+
+nft_invitation_dApp>>Contract>>InvitationMint.sol
+
+![](images/Deploy_2)
+
 
 To run the streamlit page once must locate the folder in which the repository lives. Then run,
 
