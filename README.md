@@ -149,9 +149,8 @@ Click[Here](https://docs.metamask.io/wallet/get-started/run-development-network/
 1. Open the `app.py` in VScode.
 
 2. In the Deployed Contracts section, you can see “INVITATIONMINT” contract, click the `copy` icon beside it to obtain the contract address.
-![](images/Launch_4.jpg)
 
-3. Naviget to `contract address` in line 14 in `app.py`,  paste the contract address you copied into the quotation to replace the string in it.   
+3. Naviget to `contract address` in line 14 in `app.py`, paste the contract address you copied into the quotation to replace the string in it.   
 
 ### Run Streamlit page
 
