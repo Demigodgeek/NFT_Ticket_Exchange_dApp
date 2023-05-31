@@ -185,18 +185,9 @@ How to Withdraw
 ## Contributors
 
 Demi Gao, 
-- [@Demigodgeek](https://github.com/Demigodgeek)
-
 Jonathan Cruz, 
-- [@jonnycw](https://github.com/jonnycw)
-
 Julio Rodriguez, 
-- [@julio-rod](https://github.com/julio-rod)
-
 Cary Gutknecht
-- [@Knecht2ME](https://github.com/Knecht2ME)
-
----
 
 ## License
 
