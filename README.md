@@ -29,7 +29,7 @@ By utilizing these technologies, the Ethereum-based Grad Dinner Invitation Tradi
 ---
 ## Installation Guide
 
-- `Python` (This code is executed with Python 3.10 & 3.8 & 3.7, here takes Python 3.10 for example)
+**`Python`** (This code is executed with Python 3.10 & 3.8 & 3.7, here takes Python 3.10 for example)
 To install Python 3.10 on your system, please follow these steps:
 1. Visit the official Python website at https://www.python.org/downloads/.
 2. Scroll down to the "Python Releases for Windows/macOS/Linux" section.
@@ -40,7 +40,7 @@ To install Python 3.10 on your system, please follow these steps:
 7. Proceed with the installation, and the Python 3.10 interpreter will be installed on your system.
 After the installation is complete, you can open a terminal or command prompt and type python --version to verify that Python 3.10 is installed. The command should display the version number.
 
-- `Solidity`
+**`Solidity`**
 To install Solidity, you can follow these steps:
 1. Open your command-line interface (CLI) or terminal.
 2. Check if you have Node.js installed by running the command `node -v`. If Node.js is not installed, you can download and install it from the official Node.js website (https://nodejs.org).
@@ -52,19 +52,18 @@ To install Solidity, you can follow these steps:
 2. Activate the newly created environment by running the following command: `conda activate web3`
 3. When the environment is activated, you should see the environment name in your terminal prompt.
 
-
-- `web3`
+**`web3`**
 The web3 library should be installed separately to interact with the Ethereum blockchain and smart contracts.
 To install web3, you can use the command: `pip install web3`
 
-- `PIL`
+**`PIL`**
 1. To install the Python Imaging Library (PIL), you can follow these steps:
 2. Open a terminal or command prompt.
 3. Ensure that you have Python installed on your system. You can check by running the command python --version. If Python is not installed, please install it first.
 4. Once you have Python installed, you can install PIL using the pip package manager. Run the following command in your terminal or command prompt:`pip install Pillow` PIL has been deprecated and Pillow is the recommended fork that provides the same functionality.
 5. After the installation is complete, you can verify that PIL is installed correctly by running the following command: `python -c "from PIL import Image; print(Image.__version__)"` This command will display the installed version of PIL.
 
-- `Visual Studio Code`
+**`Visual Studio Code`**
 To install Visual Studio Code (VS Code), follow these steps:
 1. Visit the official website of Visual Studio Code at https://code.visualstudio.com/.
 2. Click on the "Download" button, which should detect your operating system automatically and provide the appropriate download option.
@@ -73,13 +72,13 @@ To install Visual Studio Code (VS Code), follow these steps:
 5. During the installation, you may be prompted to select additional components or configure certain settings. You can choose the options that suit your preferences or go with the default settings.
 6. After the installation is finished, you can launch Visual Studio Code from your applications or programs menu.
 
-- `Ganache`
+**`Ganache`**
 To install Ganache, you can follow these steps:
 1. Visit the official Ganache website at https://www.trufflesuite.com/ganache and navigate to the "Downloads" section.
 2. Select the appropriate version of Ganache for your operating system (Windows, macOS, or Linux) and download the installer.
 3. Run the installer and follow the on-screen instructions to complete the installation process.
 
-- `MetaMask`
+**`MetaMask`**
 To install MetaMask, follow these steps:
 1. Open your preferred web browser (Chrome, Firefox, Brave, or Edge).
 2. Go to the MetaMask website: https://metamask.io/
@@ -93,7 +92,7 @@ To install MetaMask, follow these steps:
 10. Set up a password and backup seed phrase as per the instructions.
 11. Once your wallet is set up, you can use MetaMask to connect to Ethereum networks and interact with dApps.
 
-- Streamlit
+**`Streamlit`**
 To install Streamlit, you can follow these steps:
 1. Open a terminal or command prompt.
 2. Ensure that you have Python installed on your system. You can check by running the command python --version. If Python is not installed, please install it first.
