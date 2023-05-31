@@ -130,13 +130,11 @@ Now you can mint Ticket using the `mintTicket` function in TICKETMINT contract
 
 
 How to Purchase an Invitation
-![](videos/purchase)
+![](images/purchase.gif)
 
-How to Gift Invitation
-![](videos/Gift)
 
-How to Generate Receipt
-![](images/GenerateReceipt.gif)
+How to Withdraw
+![](images/WithdrawContractBalance.gif)
 
 ---
 ## Contributors
