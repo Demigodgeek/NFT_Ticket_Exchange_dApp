@@ -29,8 +29,6 @@ By utilizing these technologies, the Ethereum-based Grad Dinner Invitation Tradi
 ---
 ## Installation Guide
 
-## Installation
-
 - `Python` (This code is executed with Python 3.10 & 3.8 & 3.7, here takes Python 3.10 for example)
 To install Python 3.10 on your system, please follow these steps:
 1. Visit the official Python website at https://www.python.org/downloads/.
@@ -49,7 +47,7 @@ To install Solidity, you can follow these steps:
 3. Once you have Node.js installed, you can install Solidity by running the command `npm install -g solc`. This command installs the Solidity compiler globally on your system.
 4. After the installation is complete, you can verify if Solidity is installed correctly by running the command `solc --version`. This command will display the version of Solidity installed on your system.
 
-** Create new environment for this project**
+**Create new environment for this project**
 1. After you install both Python and Solidity, you can create a new virtual environment for this project by running the following command: `python -m venv web3`
 2. Activate the newly created environment by running the following command: `conda activate web3`
 3. When the environment is activated, you should see the environment name in your terminal prompt.
@@ -102,10 +100,6 @@ To install Streamlit, you can follow these steps:
 3. Once you have Python installed, you can install Streamlit using the pip package manager. Run the following command in your terminal or command prompt:
 `pip install streamlit` This command will download and install Streamlit and its dependencies.
 4. After the installation is complete, you can verify that Streamlit is installed correctly by running the following command: `streamlit --version` This command will display the installed version of Streamlit.
-
-
-Click [Here](https://remix.ethereum.org/). To Launch remix.etherum.org
-
 
 ## Launch
  
