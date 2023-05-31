@@ -136,7 +136,7 @@ How to Gift Invitation
 ![](videos/Gift)
 
 How to Generate Receipt
-![](videos/GenerateReceipt)
+![](images/GenerateReceipt.gif)
 
 ---
 ## Contributors
