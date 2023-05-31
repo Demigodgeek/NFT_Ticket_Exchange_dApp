@@ -83,15 +83,15 @@ Click on Solidity Compile Icon on left bar, then Click on Compile invitationMint
 
 Now, click on the Deploy & run transactions icon
 
-![](images'Deploy&RunIcon)
+![](images'Deploy&RunIcon.png)
 
 First, deploy the deployer.sol
 chose environment “Dev-Ganache Provider”
-![](images/Launch_1.jpg)
+![](images/Launch_1.png)
   
   
 change RPC Endpoint from  8545 to 7545, click OK
-![](images/Launch_2.jpg)                 
+![](images/Launch_2.png)                 
 
 
 change GAS LIMIT to 100000000, copy paste index 0 address from Ganache, choose Deployer contract, click Deploy.
