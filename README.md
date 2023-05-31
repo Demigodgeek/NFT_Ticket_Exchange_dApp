@@ -1,5 +1,5 @@
 
-# Grad Invite Manager: Ethereum-based dApp for Grad Dinner Invitation Trading and Management ![](images/crest.png) 
+# Grad Invite Manager: Ethereum-based dApp for Grad Dinner Invitation Trading and Management
 
 ---
 
