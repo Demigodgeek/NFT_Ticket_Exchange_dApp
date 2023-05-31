@@ -57,11 +57,10 @@ The web3 library should be installed separately to interact with the Ethereum bl
 To install web3, you can use the command: `pip install web3`
 
 **`PIL`**
-1. To install the Python Imaging Library (PIL), you can follow these steps:
-2. Open a terminal or command prompt.
-3. Ensure that you have Python installed on your system. You can check by running the command python --version. If Python is not installed, please install it first.
-4. Once you have Python installed, you can install PIL using the pip package manager. Run the following command in your terminal or command prompt:`pip install Pillow` PIL has been deprecated and Pillow is the recommended fork that provides the same functionality.
-5. After the installation is complete, you can verify that PIL is installed correctly by running the following command: `python -c "from PIL import Image; print(Image.__version__)"` This command will display the installed version of PIL.
+To install the Python Imaging Library (PIL), you can follow these steps:
+1. Open a terminal or command prompt.
+2. Run the following command in your terminal or command prompt:`pip install Pillow` PIL has been deprecated and Pillow is the recommended fork that provides the same functionality.
+3. After the installation is complete, you can verify that PIL is installed correctly by running the following command: `python -c "from PIL import Image; print(Image.__version__)"` This command will display the installed version of PIL.
 
 **`Visual Studio Code`**
 To install Visual Studio Code (VS Code), follow these steps:
