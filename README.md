@@ -94,8 +94,10 @@ change RPC Endpoint from  8545 to 7545, click OK
 ![](images/Launch_2.png)                 
 
 
-change GAS LIMIT to 100000000, copy paste index 0 address from Ganache, choose Deployer contract, click Deploy.
-![](images/Launch_3.jpg)
+1. Change GAS LIMIT to 100000000, 
+2. Copy paste index 0 address from Ganache, 
+3. Choose InvitationMint contract, click Deploy contract. Green Check = Success!
+![](images/Launch_3.png)
 
 
 In the Deployed Contracts section, expand “DEPLOYER AT”
