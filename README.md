@@ -125,27 +125,24 @@ Click[Here](https://docs.metamask.io/wallet/get-started/run-development-network/
 
 2. Deploy the smart contract
 
-+ click on the Deploy & run transactions icon, 
++ Click on the Deploy & run transactions icon, 
 
 ![](images'Deploy&RunIcon.png)
 
-+ Deploy the deployer.sol
-
-   - chose environment “Dev-Ganache Provider”
++ Chose environment “Dev-Ganache Provider”
      ![](images/Launch_1.png)
 
-   - in the prompt menu, change RPC Endpoint from  8545 to 7545, click OK
++ In the prompt menu, change RPC Endpoint from  8545 to 7545, click OK
      ![](images/Launch_2.png)                 
 
-   - Change GAS LIMIT to 100000000, 
++ Change GAS LIMIT to 100000000, 
 
-   - Copy paste index 0 address from Ganache, this address should be taken as the contract owner's address
++ Copy paste index 0 address from Ganache, this address should be taken as the contract owner's address
    
-   - Choose InvitationMint contract, click Deploy contract. 
++ Choose InvitationMint contract, click Deploy contract. 
      ![](images/Launch_3.png)
 
-   - In the MetaMask prompt, click confirm button.
-
++ In the MetaMask prompt, click confirm button.
 
 ### Connect contract with the streamlit
 
@@ -155,8 +152,6 @@ Click[Here](https://docs.metamask.io/wallet/get-started/run-development-network/
 ![](images/Launch_4.jpg)
 
 3. Naviget to `contract address` in line 14 in `app.py`,  paste the contract address you copied into the quotation to replace the string in it.   
-
-
 
 ### Run Streamlit page
 
@@ -177,7 +172,6 @@ How to Purchase an Invitation
 
 How to Withdraw
 ![](images/WithdrawContractBalance.gif)
-
 
 ---
 
