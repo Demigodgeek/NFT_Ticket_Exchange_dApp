@@ -166,7 +166,10 @@ Then You should see this in your terminal along with the streamlit page popping 
  
 ![](images/lit_2.png)
 
-How to Purchase an Invitation
+How to select Operations
+![](images/Operations.gif)
+
+How to Check Balance
 ![](images/purchase.gif)
 
 How to Withdraw
