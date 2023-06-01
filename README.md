@@ -166,7 +166,7 @@ Then You should see this in your terminal along with the streamlit page popping 
  
 ![](images/lit_2.png)
 
-How to select Operations
+How to Select Operations
 ![](images/Operations.gif)
 
 How to Check Balance
