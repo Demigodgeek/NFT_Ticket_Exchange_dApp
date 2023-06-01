@@ -4,7 +4,7 @@
 ---
 
 **Problem**
-The traditional process of managing and trading graduation dinner invitations is often tedious, time-consuming, and prone to errors. It typically involves manual tracking, physical paperwork, and reliance on intermediaries to facilitate the exchange of invitations. This process can be inefficient, costly, and lack transparency, leading to frustration and inconvenience for both administrators and customers.
+The traditional process of managing and trading graduation dinner invitations is often tedious, time-consuming, and prone to errors. It typically involves manual tracking, physical paperwork, and reliance on intermediaries to facilitate the exchange of invitations. This process can be inefficient, costly, and lack transparency, leading to frustration and inconvenience for both administrators and customers.  
 
 **Solution**
 The Ethereum-based Grad Dinner Invitation Trading and Management dApp offers a streamlined solution to address the challenges associated with managing and trading graduation dinner invitations. By leveraging the power of blockchain technology, the dApp provides a secure, transparent, and efficient platform for administrators and customers to interact.
